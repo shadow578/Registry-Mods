@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Adds / Modifies Registry keys:
+; HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList
+
+; Set SpecialAccounts\UserList Administrator to 0 (hide account)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList]
+"Administrator"=dword:0
